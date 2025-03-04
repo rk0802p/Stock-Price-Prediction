@@ -10,7 +10,7 @@ from alpha_vantage.timeseries import TimeSeries
 import time
 
 # API Key (Store securely, e.g., as an environment variable in production)
-API_KEY = "75CHWTN4WESF5E1R"  # Replace with your Alpha Vantage API key
+API_KEY = ""  # Replace with your Alpha Vantage API key
 
 # Function to fetch real-time current price
 def fetch_current_price(ticker):
@@ -205,5 +205,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
